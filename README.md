@@ -11,7 +11,7 @@
     <br />
     <a href="https://huggingface.co/spaces/linhdo/document-layout-analysis">Live HuggingFace Demo</a>
     ·
-    <a href="https://github.com/LynnHaDo/Document-Layout-Analysis/issues">Visit YOLOv10</a>
+    <a href="https://github.com/THU-MIG/yolov10">Visit YOLOv10</a>
     ·
     <a href="https://github.com/LynnHaDo/Document-Layout-Analysis/issues">Request Feature or Report Problem</a>
   </p>
@@ -20,98 +20,62 @@
 <!-- UPDATES -->
 ## Updates 
 
-I have trained in this project YOLOv10 on DocLayNet dataset. Below you see results table. Feel free to use our fine-tuned models and don't forget to cite YOLOv10, DocLayNet and our repository. Don't forget to give this repo a 🌟!
+I have trained YOLOv10 on the DocLayNet dataset for this project. Below is the results table. Feel free to use our fine-tuned models, and please remember to cite YOLOv10, DocLayNet, and our repository. If you find this repository useful, don't forget to give it a 🌟!
 
- * 02/06/2024: HugginFace demo is live with Yolov10-x model best weights.
- * 
+- **02/06/2024**: HuggingFace demo is live with YOLOv10-x model best weights.
+  
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Due to the lack of computational resources, I only performed the training process on the Doclaynet-base dataset which contains 6910 train images, 648 val images, 499 test images. However, the model could perform relatively well, further proving the superiority of YOLOv8 model. 
+The models were fine-tuned using 4xA100 GPUs on the Doclaynet-base dataset, which consists of 6910 training images, 648 validation images, and 499 test images.
 
-<img src="images/samples.gif" height=640 align = "center"/>
+<p align="center">
+  <img src="images/samples.gif" height="640"/>
+</p>
 
-### Built With
-
-* [YOLOv10](https://ultralytics.com/yolov8)
-* [Hugging Face Spaces](https://huggingface.co/spaces)
-* [Gradio](https://www.gradio.app/)
-
-<!-- GETTING STARTED -->
-### Prerequisites
-
-1. python 3
-2. ultralytics
-3. numpy
-4. opencv-python
+### Results
+| Model   | mAP50 | mAP50-95 |
+|---------|-------|----------|
+| YOLOv10-x | 0.924 | 0.74 |
+| YOLOv10-b | 0.922 | 0.732 |
+| YOLOv10-l | - | - |
+| YOLOv10-m | - | - |
+| YOLOv10-s | - | - |
+| YOLOv10-n | - | - |
 
 ### Installation
+```
+conda create -n yolov10 python=3.9
+conda activate yolov10
+git clone https://github.com/THU-MIG/yolov10.git
+cd yolov10
+pip install -r requirements.txt
+pip install -e .
+```
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/LynnHaDo/Document-Layout-Analysis.git
-   ```
-2. Install packages
-   ```sh
-   pip install ultralytics
-   pip install numpy
-   pip install opencv-python
-   ```
-3. Download [Doclaynet dataset](https://huggingface.co/datasets/ds4sd/DocLayNet) and save it as ```datasets/doclaynet-base``` 
-4. (Optional) Download [pretrained YOLOv8s weights](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8s.pt)
+## References
+1. YOLOv10
+```
+BibTeX
+@article{wang2024yolov10,
+  title={YOLOv10: Real-Time End-to-End Object Detection},
+  author={Wang, Ao and Chen, Hui and Liu, Lihao and Chen, Kai and Lin, Zijia and Han, Jungong and Ding, Guiguang},
+  journal={arXiv preprint arXiv:2405.14458},
+  year={2024}
+}
+```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- Works Cited -->
-## Works Cited
-
-1. Ultralytics YOLOv8
    
-   ```sh
-   authors:
-    - family-names: Jocher
-      given-names: Glenn
-      orcid: "https://orcid.org/0000-0001-5950-6979"
-    - family-names: Chaurasia
-      given-names: Ayush
-      orcid: "https://orcid.org/0000-0002-7603-6750"
-    - family-names: Qiu
-      given-names: Jing
-      orcid: "https://orcid.org/0000-0003-3783-7069"
-   title: "YOLO by Ultralytics"
-   version: 8.0.0
-   date-released: 2023-1-10
-   license: AGPL-3.0
-   url: "https://github.com/ultralytics/ultralytics"
-   ```
-   
-2. Doclaynet-base dataset
+2. DocLayNet
+```
+@article{doclaynet2022,
+  title = {DocLayNet: A Large Human-Annotated Dataset for Document-Layout Analysis},  
+  doi = {10.1145/3534678.353904},
+  url = {https://arxiv.org/abs/2206.01062},
+  author = {Pfitzmann, Birgit and Auer, Christoph and Dolfi, Michele and Nassar, Ahmed S and Staar, Peter W J},
+  year = {2022}
+}
+```
 
-   ```sh
-   @article{doclaynet2022,
-    title = {DocLayNet: A Large Human-Annotated Dataset for Document-Layout Segmentation},
-    doi = {10.1145/3534678.353904},
-    url = {https://doi.org/10.1145/3534678.3539043},
-    author = {Pfitzmann, Birgit and Auer, Christoph and Dolfi, Michele and Nassar, Ahmed S and Staar, Peter W J},
-    year = {2022},
-    isbn = {9781450393850},
-    publisher = {Association for Computing Machinery},
-    address = {New York, NY, USA},
-    booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
-    pages = {3743–3751},
-    numpages = {9},
-    location = {Washington DC, USA},
-    series = {KDD '22}
-    }
-   ```
-
-<!-- CONTACT -->
 ## Contact
-
-Linh Do - do24l@mtholyoke.edu/dohalinh2303@gmail.com (personal)
-
-Project Link: [https://github.com/LynnHaDo/Document-Layout-Analysis](https://github.com/LynnHaDo/Document-Layout-Analysis)
-
-LinkedIn: [https://linkedin.com/in/Linh Do](https://www.linkedin.com/in/linh-do-0327371b2/)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+LinkedIn: [https://www.linkedin.com/in/omar-moured/](https://www.linkedin.com/in/omar-moured/)
