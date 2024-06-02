@@ -1,11 +1,15 @@
-<div id="top"></div>
-
-<!-- PROJECT LOGO -->
-<br />
 <div align="center">
 
 <h3 align="center">YOLOv10 - Document Layout Analysis</h3>
+</div>
 
+<p align="center">
+  <a href="https://huggingface.co/spaces/omoured/YOLOv10-Document-Layout-Analysis">
+    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue"/>
+  </a>
+</p>
+
+<!--
   <p align="center">
     Trained on DocLayNet dataset
     <br />
@@ -16,9 +20,9 @@
     <a href="https://github.com/LynnHaDo/Document-Layout-Analysis/issues">Request Feature or Report Problem</a>
   </p>
 </div>
+-->
 
-<!-- UPDATES -->
-## Updates 
+## Updates 🔥
 
 I have trained YOLOv10 on the DocLayNet dataset for this project. Below is the results table. Feel free to use our fine-tuned models, and please remember to cite YOLOv10, DocLayNet, and our repository. If you find this repository useful, don't forget to give it a 🌟!
 
