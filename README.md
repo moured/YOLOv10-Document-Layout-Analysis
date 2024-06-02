@@ -7,6 +7,10 @@
   <a href="https://huggingface.co/spaces/omoured/YOLOv10-Document-Layout-Analysis">
     <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue"/>
   </a>
+  &nbsp;
+  <a href="https://colab.research.google.com/github/moured/YOLOv10-Document-Layout-Analysis/blob/main/demo.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg"/>
+  </a>
 </p>
 
 <!--
