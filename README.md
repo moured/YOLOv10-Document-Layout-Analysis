@@ -30,7 +30,8 @@
 
 I have trained YOLOv10 on the DocLayNet dataset for this project. Below is the results table. Feel free to use our fine-tuned models, and please remember to cite YOLOv10, DocLayNet, and our repository. If you find this repository useful, don't forget to give it a 🌟!
 
-- **02/06/2024**: HuggingFace demo is live with YOLOv10-x model best weights.
+- **02/06/2024**: Uploaded Fine-tuned YOLOv10-x & YOLOv10-b models.
+- **02/06/2024**: HuggingFace demo is live with YOLOv10-x fine-tuned weights.
   
 <!-- ABOUT THE PROJECT -->
 ## About 📋
