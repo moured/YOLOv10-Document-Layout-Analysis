@@ -33,7 +33,7 @@ I have trained YOLOv10 on the DocLayNet dataset for this project. Below is the r
 - **02/06/2024**: HuggingFace demo is live with YOLOv10-x model best weights.
   
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About 📋
 
 The models were fine-tuned using 4xA100 GPUs on the Doclaynet-base dataset, which consists of 6910 training images, 648 validation images, and 499 test images.
 
@@ -41,17 +41,17 @@ The models were fine-tuned using 4xA100 GPUs on the Doclaynet-base dataset, whic
   <img src="images/samples.gif" height="640"/>
 </p>
 
-### Results
-| Model   | mAP50 | mAP50-95 |
-|---------|-------|----------|
-| YOLOv10-x | 0.924 | 0.74 |
-| YOLOv10-b | 0.922 | 0.732 |
-| YOLOv10-l | - | - |
-| YOLOv10-m | - | - |
-| YOLOv10-s | - | - |
-| YOLOv10-n | - | - |
+## Results 📊
+| Model   | mAP50 | mAP50-95 | Model Weights |
+|---------|-------|----------|---------------|
+| [YOLOv10-x](https://github.com/moured/YOLOv10-Document-Layout-Analysis/releases/download/doclaynet_weights/yolov10x_best.pt) | 0.924 | 0.74 | [Download](https://github.com/moured/YOLOv10-Document-Layout-Analysis/releases/download/doclaynet_weights/yolov10x_best.pt) |
+| [YOLOv10-b](https://github.com/moured/YOLOv10-Document-Layout-Analysis/releases/download/doclaynet_weights/yolov10b_best.pt) | 0.922 | 0.732 | [Download](https://github.com/moured/YOLOv10-Document-Layout-Analysis/releases/download/doclaynet_weights/yolov10b_best.pt) |
+| YOLOv10-l | - | - | - |
+| YOLOv10-m | - | - | - |
+| YOLOv10-s | - | - | - |
+| YOLOv10-n | - | - | - |
 
-### Installation
+### Installation 💻
 ```
 conda create -n yolov10 python=3.9
 conda activate yolov10
@@ -61,7 +61,8 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-## References
+## References 📝
+
 1. YOLOv10
 ```
 BibTeX
