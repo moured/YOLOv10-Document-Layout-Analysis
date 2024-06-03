@@ -30,8 +30,8 @@
 
 I have trained YOLOv10 on the DocLayNet dataset for this project. Below is the results table. Feel free to use our fine-tuned models, and please remember to cite YOLOv10, DocLayNet, and our repository. If you find this repository useful, don't forget to give it a 🌟!
 
-- **02/06/2024**: Uploaded Fine-tuned YOLOv10-x & YOLOv10-b models.
-- **02/06/2024**: HuggingFace demo is live with YOLOv10-x fine-tuned weights.
+- **03/06/2024**: 🚀 Uploaded Fine-tuned (check the table below).
+- **02/06/2024**: 🤗 HuggingFace demo is live with YOLOv10-x fine-tuned weights.
   
 <!-- ABOUT THE PROJECT -->
 ## About 📋
@@ -45,12 +45,12 @@ The models were fine-tuned using 4xA100 GPUs on the Doclaynet-base dataset, whic
 ## Results 📊
 | Model   | mAP50 | mAP50-95 | Model Weights |
 |---------|-------|----------|---------------|
-| YOLOv10-x | 0.924 | 0.74 | [Download](https://github.com/moured/YOLOv10-Document-Layout-Analysis/releases/download/doclaynet_weights/yolov10x_best.pt) |
+| YOLOv10-x | 0.924 | 0.740 | [Download](https://github.com/moured/YOLOv10-Document-Layout-Analysis/releases/download/doclaynet_weights/yolov10x_best.pt) |
 | YOLOv10-b | 0.922 | 0.732 | [Download](https://github.com/moured/YOLOv10-Document-Layout-Analysis/releases/download/doclaynet_weights/yolov10b_best.pt) |
-| YOLOv10-l | 0.921 | 0.732 | - | 
-| YOLOv10-m | 0.917 | 0.737 | - | 
-| YOLOv10-s | - | - | - |
-| YOLOv10-n | - | - | - |
+| YOLOv10-l | 0.921 | 0.732 | [Download](https://github.com/moured/YOLOv10-Document-Layout-Analysis/releases/download/doclaynet_weights/yolov10l_best.pt) | 
+| YOLOv10-m | 0.917 | 0.737 | [Download](https://github.com/moured/YOLOv10-Document-Layout-Analysis/releases/download/doclaynet_weights/yolov10m_best.pt) | 
+| YOLOv10-s | 0.905 | 0.713 | [Download](https://github.com/moured/YOLOv10-Document-Layout-Analysis/releases/download/doclaynet_weights/yolov10s_best.pt) | 
+| YOLOv10-n | 0.892 | 0.685 | [Download](https://github.com/moured/YOLOv10-Document-Layout-Analysis/releases/download/doclaynet_weights/yolov10n_best.pt) |
 
 ### Installation 💻
 ```
