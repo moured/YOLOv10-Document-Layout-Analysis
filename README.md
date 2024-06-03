@@ -45,10 +45,10 @@ The models were fine-tuned using 4xA100 GPUs on the Doclaynet-base dataset, whic
 ## Results 📊
 | Model   | mAP50 | mAP50-95 | Model Weights |
 |---------|-------|----------|---------------|
-| [YOLOv10-x](https://github.com/moured/YOLOv10-Document-Layout-Analysis/releases/download/doclaynet_weights/yolov10x_best.pt) | 0.924 | 0.74 | [Download](https://github.com/moured/YOLOv10-Document-Layout-Analysis/releases/download/doclaynet_weights/yolov10x_best.pt) |
-| [YOLOv10-b](https://github.com/moured/YOLOv10-Document-Layout-Analysis/releases/download/doclaynet_weights/yolov10b_best.pt) | 0.922 | 0.732 | [Download](https://github.com/moured/YOLOv10-Document-Layout-Analysis/releases/download/doclaynet_weights/yolov10b_best.pt) |
-| YOLOv10-l | - | - | - |
-| YOLOv10-m | - | - | - |
+| YOLOv10-x | 0.924 | 0.74 | [Download](https://github.com/moured/YOLOv10-Document-Layout-Analysis/releases/download/doclaynet_weights/yolov10x_best.pt) |
+| YOLOv10-b | 0.922 | 0.732 | [Download](https://github.com/moured/YOLOv10-Document-Layout-Analysis/releases/download/doclaynet_weights/yolov10b_best.pt) |
+| YOLOv10-l | 0.921 | 0.732 | - | 
+| YOLOv10-m | 0.917 | 0.737 | - | 
 | YOLOv10-s | - | - | - |
 | YOLOv10-n | - | - | - |
 
