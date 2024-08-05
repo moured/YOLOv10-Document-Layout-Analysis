@@ -36,7 +36,7 @@ I have trained YOLOv10 on the DocLayNet dataset for this project. Below is the r
 <!-- ABOUT THE PROJECT -->
 ## About 📋
 
-The models were fine-tuned using 4xA100 GPUs on the Doclaynet-base dataset, which consists of 6910 training images, 648 validation images, and 499 test images.
+The models were fine-tuned using 4xA100 GPUs on the Doclaynet-base dataset, which consists of 69103 training images, 6480 validation images, and 4994 test images.
 
 <p align="center">
   <img src="images/samples.gif" height="640"/>
