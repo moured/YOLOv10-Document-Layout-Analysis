@@ -14,6 +14,17 @@
 </p>
 
 <!--
+<p align="center">
+  For further assistance or adaptation in your project, feel free to get in touch: <a href="mailto:moured.omar@gmail.com">moured.omar@gmail.com</a>.
+</p>
+-->
+
+<h3 align="center">🚀 <b>Check Out Our Recent Trained Model:</b> <a href="https://github.com/moured/YOLOv11-Document-Layout-Analysis/">Yolov11</a>, is now available with live demo! 🎉</h3>
+
+
+
+
+<!--
   <p align="center">
     Trained on DocLayNet dataset
     <br />
@@ -30,7 +41,8 @@
 
 I have trained YOLOv10 on the DocLayNet dataset for this project. Below is the results table. Feel free to use our fine-tuned models, and please remember to cite YOLOv10, DocLayNet, and our repository. If you find this repository useful, don't forget to give it a 🌟!
 
-- **03/06/2024**: 🚀 Uploaded Fine-tuned (check the table below).
+- **01/11/2024**: Yolov11 trained models with better performance - [https://github.com/moured/YOLOv11-Document-Layout-Analysis/](https://github.com/moured/YOLOv11-Document-Layout-Analysis/).
+- **03/06/2024**: Uploaded Fine-tuned (check the table below).
 - **02/06/2024**: 🤗 HuggingFace demo is live with YOLOv10-x fine-tuned weights.
   
 <!-- ABOUT THE PROJECT -->
@@ -45,6 +57,7 @@ The models were fine-tuned using 4xA100 GPUs on the Doclaynet-base dataset, whic
 ## Results 📊
 | Model   | mAP50 | mAP50-95 | Model Weights |
 |---------|-------|----------|---------------|
+| YOLOv11-x | 0.924 | 0.755 | [Repo](https://github.com/moured/YOLOv11-Document-Layout-Analysis) |
 | YOLOv10-x | 0.924 | 0.740 | [Download](https://github.com/moured/YOLOv10-Document-Layout-Analysis/releases/download/doclaynet_weights/yolov10x_best.pt) |
 | YOLOv10-b | 0.922 | 0.732 | [Download](https://github.com/moured/YOLOv10-Document-Layout-Analysis/releases/download/doclaynet_weights/yolov10b_best.pt) |
 | YOLOv10-l | 0.921 | 0.732 | [Download](https://github.com/moured/YOLOv10-Document-Layout-Analysis/releases/download/doclaynet_weights/yolov10l_best.pt) | 
